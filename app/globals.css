@@ -9,6 +9,10 @@
   box-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #e60073, 0 0 4px #e60073, 0 0 5px #e60073, 0 0 6px #e60073, 0 0 7px #e60073;
 }
 
+.glow-hover:hover {
+  box-shadow: 0 0 7px #fff, 0 0 14px #fff, 0 0 21px #e6007376, 0 0 28px #e6007376, 0 0 35px #e6007376, 0 0 42px #e6007376, 0 0 59px #e6007376;
+}
+
 @theme inline {
   --color-background: var(--color-black);
   --color-foreground: var(--foreground);
